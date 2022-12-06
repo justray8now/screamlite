@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env: 
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://justr8now:$HF_TOKEN@huggingface.co/spaces/screamlite main
+        run: git push --force https://justr8now:$HF_TOKEN@huggingface.co/spaces/justr8now/screamlite main
